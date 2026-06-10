@@ -1,0 +1,42 @@
+{
+  "validLogin": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUsername": {
+    "username": "InvalidUser",
+    "password": "admin123"
+  },
+  "invalidPassword": {
+    "username": "Admin",
+    "password": "wrongpassword"
+  },
+  "emptyUsername": {
+    "username": "",
+    "password": "admin123"
+  },
+  "emptyPassword": {
+    "username": "Admin",
+    "password": ""
+  },
+  "emptyBoth": {
+    "username": "",
+    "password": ""
+  },
+  "usernameWithSpaces": {
+    "username": " Admin ",
+    "password": "admin123"
+  },
+  "passwordWithSpaces": {
+    "username": "Admin",
+    "password": " admin123 "
+  },
+  "sqlInjection": {
+    "username": "' OR '1'='1",
+    "password": "anything"
+  },
+  "specialCharactersUsername": {
+    "username": "Admin@#$%",
+    "password": "admin123"
+  }
+}
